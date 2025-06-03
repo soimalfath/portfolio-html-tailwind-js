@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Your custom styles can go here */
+/* Move the @keyframes and .scroll-container styles from index.html here */
+/* If you defined keyframes in tailwind.config.js, you don't need them here again */
+/* But if you prefer to keep them in CSS: */
+
+
+.scroll-container {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* If you created animation utilities in tailwind.config.js like: */
+/* animation: { 'fade-in': 'fadeIn 0.5s ease-in-out' } */
+/* You can directly use classes like `animate-fade-in` in your HTML. */
+/* If you just define @keyframes here, you'd apply them with custom classes. */
