@@ -20,98 +20,101 @@ darkModeToggle.addEventListener('click', () => {
 
 const kelasData = [
   {
-    title: "Complete Web Development",
-    desc: "Belajar HTML, CSS, JavaScript dari dasar hingga mahir",
-    img: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=300&h=200&fit=crop",
+    title: "Ebook Membuat Website Wordpress Tanpa Biaya",
+    desc: "Panduan lengkap membuat website dengan WordPress tanpa biaya hosting, domain dan ssl 100% gratis no coding",
+    img: "./assets/ebook/ebook-free-wordpress-website.png",
     tags: [
-      { name: "Programming", color: "blue" },
-      { name: "Newbie", color: "green" }
+      { name: "wordpress", color: "blue" },
+      { name: "hosting", color: "indigo" },
+      { name: "newbie", color: "green" }
     ],
     price: {
-      original: "Rp 599.000",
+      original: "Rp 99.000",
       discount: "67%",
-      final: "Rp 199.000"
+      final: "Rp 29.000"
     },
         button: true,
-        link: "https://example.com/complete-web-development"
+        link: "https://qiblat-digital.myscalev.com/ebook-build-wordpress-for-free"
   },
   {
-    title: "Data Analysis with Python",
-    desc: "Analisis data menggunakan Python dan library populer",
-    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop",
+    title: "Elementor Pro Lifetime GNU License",
+    desc: "Dapatkan Elementor Pro Lifetime GNU License seumur hidup untuk unlimited website, 100% aman, plus tutorial lengkap cara install",
+    img: "./assets/ebook/elementor-pro.png",
     tags: [
-      { name: "Analytics", color: "cyan" },
-      { name: "Digital Marketing", color: "red" }
+      { name: "tools", color: "cyan" },
+      { name: "wordpress", color: "red" }
       ],
      price: {
-      original: "Rp 199.000",
-      discount: "37%",
-      final: "Rp 89.000"
-    },
-    button: true,
-    link: "https://example.com/data-analysis-python"
-    
-  },
-  {
-    title: "React Native Development",
-    desc: "Membuat aplikasi mobile iOS & Android dengan React Native",
-    img: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=300&h=200&fit=crop",
-    tags: [
-      { name: "Mobile", color: "purple" }
-      ],
-     price: {
-      original: "Rp 99.000",
-      discount: "47%",
-      final: "Rp 19.000"
-    },
-    button: true,
-    link: "https://example.com/data-analysis-python"
-  },
-  {
-    title: "Social Media Marketing",
-    desc: "Strategi pemasaran media sosial yang efektif",
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=200&fit=crop",
-    tags: [
-      { name: "Marketing", color: "red" }
-      ],
-     price: {
-      original: "Rp 199.000",
-      discount: "67%",
-      final: "Rp 19.000"
-    },
-    button: true,
-    link: "https://example.com/data-analysis-python"
-  },
-  {
-    title: "UI/UX Design Mastery",
-    desc: "Desain antarmuka yang user-friendly dan menarik",
-    img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=200&fit=crop",
-    tags: [
-      { name: "Design", color: "pink" }
-      ],
-     price: {
-      original: "Rp 199.000",
-      discount: "37%",
-      final: "Rp 79.000"
-    },
-    button: true,
-    link: "https://example.com/data-analysis-python"
-  },
-  {
-    title: "Machine Learning Basics",
-    desc: "Pengenalan machine learning dan implementasinya",
-    img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop",
-    tags: [
-      { name: "AI/ML", color: "yellow" }
-      ],
-     price: {
-      original: "Rp 199.000",
+      original: "Rp 6.000.000",
       discount: "37%",
       final: "Rp 29.000"
     },
     button: true,
+    link: "https://qiblat-digital.myscalev.com/elementor-pro-leftime"
+    
+  },
+  {
+    title: "n8n Workflow Template - Asisten keuangan Cerdas AI",
+    desc: "Solusi otomasi pencatatan dan pengelolaan keuangan pribadi atau bisnis kecil Anda. Cukup chat atau kirim foto struk",
+    img: "./assets/ebook/n8n-template-finance.png",
+    tags: [
+      { name: "n8n", color: "purple" },
+      { name: "ai", color: "orange" }
+      ],
+     price: {
+      original: "Rp 199.000",
+      discount: "47%",
+      final: "Rp 29.000"
+    },
+    button: true,
+    link: "https://qiblat-digital.myscalev.com/template-n8n-1"
+  },
+  {
+    title: "Meta Ads 2025: Strategi Pemasaran Media Sosial",
+    desc: "Pelajari cara efektif memasarkan produk Anda di Facebook, Instagram, dan threads dengan Meta Ads",
+    img: "./assets/ebook/meta-ads-ebook.png",
+    tags: [
+      { name: "marketing", color: "red" },
+      { name: "meta ads", color: "blue" }
+      ],
+     price: {
+      original: "Rp 599.000",
+      discount: "67%",
+      final: "Rp 49.000"
+    },
+    button: true,
     link: "https://example.com/data-analysis-python"
-  }
+  },
+  // {
+  //   title: "UI/UX Design Mastery",
+  //   desc: "Desain antarmuka yang user-friendly dan menarik",
+  //   img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=200&fit=crop",
+  //   tags: [
+  //     { name: "Design", color: "pink" }
+  //     ],
+  //    price: {
+  //     original: "Rp 199.000",
+  //     discount: "37%",
+  //     final: "Rp 79.000"
+  //   },
+  //   button: true,
+  //   link: "https://example.com/data-analysis-python"
+  // },
+  // {
+  //   title: "Machine Learning Basics",
+  //   desc: "Pengenalan machine learning dan implementasinya",
+  //   img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop",
+  //   tags: [
+  //     { name: "AI/ML", color: "yellow" }
+  //     ],
+  //    price: {
+  //     original: "Rp 199.000",
+  //     discount: "37%",
+  //     final: "Rp 29.000"
+  //   },
+  //   button: true,
+  //   link: "https://example.com/data-analysis-python"
+  // }
 ];
 
 // Helper untuk warna tag Tailwind
@@ -136,8 +139,11 @@ function tagClass(color) {
 // }
 
 const discountPercentage = (original, final) => {
-    const precentage = ((parseFloat(original.replace(/[^0-9.-]+/g, "")) - parseFloat(final.replace(/[^0-9.-]+/g, ""))) / parseFloat(original.replace(/[^0-9.-]+/g, ""))) * 100;
-    return Math.round(precentage);
+    const originalNum = parseInt(original.replace(/[^0-9]+/g, ""), 10);
+    const finalNum = parseInt(final.replace(/[^0-9]+/g, ""), 10);
+    if (!originalNum || !finalNum) return 0;
+    const percentage = ((originalNum - finalNum) / originalNum) * 100;
+    return Math.round(percentage * 10) / 10; // satu angka di belakang koma
 }
 
 function renderKelas() {
@@ -182,7 +188,7 @@ function renderKelas() {
     }
     container.innerHTML += `
       <div class="flex-none w-64 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border dark:border-gray-700 snap-start">
-        <img src="${kelas.img}" alt="${kelas.title}" class="w-full h-40 object-cover rounded-t-lg" />
+        <img src="${kelas.img}" alt="${kelas.title}" class="w-full  object-cover rounded-t-lg" />
         <div class="p-4">
           ${tagsHtml}
           <h3 class="font-bold mb-2">${kelas.title}</h3>
@@ -320,12 +326,12 @@ const socialLinks = [
         label: "LinkedIn",
         svg: `<svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>`
     },
-    {
-        href: "https://wa.me/6282135691112",
-        color: "text-green-600",
-        label: "WhatsApp",
-        svg: `<svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.085"/></svg>`
-    }
+    // {
+    //     href: "https://wa.me/6282135691112",
+    //     color: "text-green-600",
+    //     label: "WhatsApp",
+    //     svg: `<svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.085"/></svg>`
+    // }
 ];
 
 // Render Social Media Links
@@ -360,21 +366,6 @@ if (bestSellerList) {
     `).join('');
 }
 
-const cardProjects = document.getElementById('card-projects');
-if (cardProjects) {
-    const projects = [
-        { title: "Project A", description: "Description for Project A", href: "#" },
-        { title: "Project B", description: "Description for Project B", href: "#" },
-        { title: "Project C", description: "Description for Project C", href: "#" }
-    ];
-
-    cardProjects.innerHTML = projects.map(project => `
-        <a href="${project.href}" role="link" class="block bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border dark:border-gray-700">
-            <h3 class="text-lg font-semibold">${project.title}</h3>
-            <p class="text-gray-600 dark:text-gray-400">${project.description}</p>
-        </a>
-    `).join('');
-}
 
 
 
