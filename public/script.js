@@ -22,7 +22,7 @@ const kelasData = [
   {
     title: "Ebook Membuat Website Wordpress Tanpa Biaya",
     desc: "Panduan lengkap membuat website dengan WordPress tanpa biaya hosting, domain dan ssl 100% gratis no coding",
-    img: "./assets/ebook/ebook-free-wordpress-website.png",
+    img: "./assets/ebook/ebook-free-wordpress-website.webp",
     tags: [
       { name: "wordpress", color: "blue" },
       { name: "hosting", color: "indigo" },
@@ -39,7 +39,7 @@ const kelasData = [
   {
     title: "Elementor Pro Lifetime GNU License",
     desc: "Dapatkan Elementor Pro Lifetime GNU License seumur hidup untuk unlimited website, 100% aman, plus tutorial lengkap cara install",
-    img: "./assets/ebook/elementor-pro.png",
+    img: "./assets/ebook/elementor-pro.webp",
     tags: [
       { name: "tools", color: "cyan" },
       { name: "wordpress", color: "red" }
@@ -56,7 +56,7 @@ const kelasData = [
   {
     title: "n8n Workflow Template - Asisten keuangan Cerdas AI",
     desc: "Solusi otomasi pencatatan dan pengelolaan keuangan pribadi atau bisnis kecil Anda. Cukup chat atau kirim foto struk",
-    img: "./assets/ebook/n8n-template-finance.png",
+    img: "./assets/ebook/n8n-template-finance.webp",
     tags: [
       { name: "n8n", color: "purple" },
       { name: "ai", color: "orange" }
@@ -72,7 +72,7 @@ const kelasData = [
   {
     title: "Meta Ads 2025: Strategi Pemasaran Media Sosial",
     desc: "Pelajari cara efektif memasarkan produk Anda di Facebook, Instagram, dan threads dengan Meta Ads",
-    img: "./assets/ebook/meta-ads-ebook.png",
+    img: "./assets/ebook/meta-ads-ebook.webp",
     tags: [
       { name: "marketing", color: "red" },
       { name: "meta ads", color: "blue" }
@@ -188,7 +188,7 @@ function renderKelas() {
     }
     container.innerHTML += `
       <div class="flex-none w-64 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border dark:border-gray-700 snap-start">
-        <img src="${kelas.img}" alt="${kelas.title}" class="w-full  object-cover rounded-t-lg" />
+        <img  src="${kelas.img}" alt="${kelas.title}" class="w-full h-60 object-cover rounded-t-lg" />
         <div class="p-4">
           ${tagsHtml}
           <h3 class="font-bold mb-2">${kelas.title}</h3>
