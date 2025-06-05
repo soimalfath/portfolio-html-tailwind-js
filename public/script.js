@@ -345,20 +345,44 @@ if (socialLinksContainer) {
 }
 
 // Best Seller Data
-const bestSellers = [
-    { title: "Mastering Digital Marketing 2024", href: "#" },
-    { title: "UI/UX Design Fundamentals", href: "#" },
-    { title: "Content Creation Mastery", href: "#" }
+const projects = [
+  {
+    title: "Download Video dari sosmed dengan mudah",
+    href: "https://download.qiblat.my.id/",
+    imgSrc: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=100&h=100&fit=crop&crop=center", // Download/social media themed
+    imgAlt: "Ikon Download Video Sosial Media"
+  },
+  {
+    title: "Qiblat Creator - Powerfull tools for Content creator",
+    href: "https://dashboard.qiblat.my.id/",
+    imgSrc: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=100&h=100&fit=crop&crop=center", // Creative tools/design themed
+    imgAlt: "Ikon Qiblat Creator"
+  },
+  {
+    title: "My Portfolio",
+    href: "https://mylink.ct.ws/soim",
+    imgSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=center", // Professional person/portfolio themed
+    imgAlt: "Ikon Portfolio Soim"
+  }
 ];
 
 // Render Best Seller List
 const bestSellerList = document.getElementById('best-seller-list');
 if (bestSellerList) {
-    bestSellerList.innerHTML = bestSellers.map(item => `
-        <a href="${item.href}" role="link" class="block bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border dark:border-gray-700">
+    bestSellerList.innerHTML = projects.map(item => `
+        <a href="${item.href}" role="link" aria-label="${item.title}" class="block bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border dark:border-gray-700">
             <div class="flex items-center justify-between">
-                <span class="font-medium">${item.title}</span>
-                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex items-center">
+                    <img 
+                        src="${item.imgSrc}" 
+                        alt="${item.imgAlt}" 
+                        class="w-8 h-8 mr-3 rounded-lg object-contain" 
+                        loading="lazy"
+                        width="24" 
+                        height="24">
+                    <span class="font-medium">${item.title}</span>
+                </div>
+                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
             </div>
