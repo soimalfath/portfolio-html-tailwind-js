@@ -70,6 +70,22 @@ const kelasData = [
     link: "https://qiblat-digital.myscalev.com/template-n8n-1"
   },
   {
+    title: "Prompt Master Pack ",
+    desc: " 2800+ Prompt AI Siap Pakai untuk Semua Profesi, Tool produktivitas modern yang bisa bantu kamu kerja lebih cepat, lebih cerdas, dan lebih strategis.",
+    img: "./assets/ebook/bankprompt.webp",
+    tags: [
+      { name: "prompt", color: "teal" },
+      { name: "ai", color: "indigo" }
+      ],
+     price: {
+      original: "Rp 59.000",
+      discount: "47%",
+      final: "Rp 15.000"
+    },
+    button: true,
+    link: "http://lynk.id/qidigi/dwvdxqqlz4vq"
+  },
+  {
     title: "Meta Ads 2025: Strategi Pemasaran Media Sosial",
     desc: "Pelajari cara efektif memasarkan produk Anda di Facebook, Instagram, dan threads dengan Meta Ads",
     img: "./assets/ebook/meta-ads-ebook.webp",
